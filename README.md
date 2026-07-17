@@ -1,5 +1,7 @@
 # PII Redaction Tool
 
+This is a **regex-based PII redaction tool** built with Next.js and TypeScript. It uses pattern matching and lightweight rule heuristics (rather than an NER model or external APIs) to automatically detect and replace sensitive details in `.docx` files.
+
 A tool I built for redacting personally identifiable information from `.docx` files. You feed it a Word document, and it spits out a clean version where every name, email, phone number, and similar sensitive detail has been swapped out with a realistic but fake alternative.
 
 The same fake value is used consistently — so if "Rashi Patil" appears 10 times across the document, it'll always become the same fake name, not a different one each time.
