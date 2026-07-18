@@ -1,5 +1,7 @@
 # PII Redaction Tool
 
+> ### 🔗 [**Live Demo → pii-redaction-tool-ten.vercel.app**](https://pii-redaction-tool-ten.vercel.app/)
+
 This is a **regex-based PII redaction tool** built with Next.js and TypeScript. It uses pattern matching and lightweight rule heuristics (rather than an NER model or external APIs) to automatically detect and replace sensitive details in `.docx` files.
 
 A tool I built for redacting personally identifiable information from `.docx` files. You feed it a Word document, and it spits out a clean version where every name, email, phone number, and similar sensitive detail has been swapped out with a realistic but fake alternative.
